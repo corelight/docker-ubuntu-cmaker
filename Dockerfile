@@ -4,6 +4,7 @@ LABEL description="Ubuntu with tooling for building C, signing packages"
 
 RUN apt-get update && apt install -y \
     automake \
+    autoconf \
     cmake \
     curl \
     jq \
