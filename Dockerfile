@@ -9,6 +9,7 @@ RUN apt-get update && apt install -y \
     curl \
     jq \
     libssl1.0-dev \
+    libtool \
     opensc \
     openssl \
     pkg-config \
